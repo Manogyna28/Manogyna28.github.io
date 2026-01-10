@@ -15,5 +15,19 @@ function dispMessage(){
      }
 }
 function ShowLoginForm(){
-    
+    let str=`
+       <h3>Login Form</h3>
+        <p><label id="lblMessage"></label></p>
+        <p><label id="lblMessage1"></label></p>
+        <p><input type="text" id="txtEmail"></p>
+        <p><input type="password" id="txtPassword"></p>
+        <p><button class="login-btn" onclick="dispMessage()">Log In</button></p>
+        <hr>
+        <p><button class="account" onclick="showResgisterForm()">Create Account</button></p>
+    `
+    root.innerHtml=str
+}
+function showRegisterForm(){
+   let str=
+   let s
 }
